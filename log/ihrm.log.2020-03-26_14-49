@@ -1,0 +1,8 @@
+2020-03-26 14:49:56,345 INFO [root] [__init__.py(<module>:16)] - INFO Test --------------------------
+2020-03-26 14:49:56,714 INFO [root] [emp2.py(test01_login:41)] - 员工模块登录接口的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'c40bfba1-2c83-4af2-a7c3-92a3b0002c4b'}
+2020-03-26 14:49:56,715 INFO [root] [emp2.py(test01_login:45)] - 登录成功后设置的请求头为：{'Content-Type': 'application/json', 'Authorization': 'Bearer c40bfba1-2c83-4af2-a7c3-92a3b0002c4b'}
+2020-03-26 14:49:56,786 INFO [root] [emp2.py(test02_add_emp:55)] - 添加员工的结果为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2020-03-26 14:49:56,870 INFO [root] [emp2.py(test03_query_emp:71)] - 查询员工的结果为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2020-03-26 14:49:56,949 INFO [root] [emp2.py(test04_modify_emp:81)] - 修改员工的结果为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2020-03-26 14:49:57,260 INFO [root] [emp2.py(test04_modify_emp:100)] - 打印SQL语句：select username from bs_user where id=
+2020-03-26 14:49:57,402 INFO [root] [emp2.py(test05_delete_emp:123)] - 删除员工的结果为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
